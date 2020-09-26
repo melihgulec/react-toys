@@ -17,7 +17,7 @@ function Product(props) {
       <div className="cardBody">
         <div className="cardHead">{head}</div>
         <div className="cardPrice">{price} TL</div>
-        <Link to={"/productDetail/" + id + "/" + head + "/" + price + "/" + path}>
+        <Link to={"productDetail/" + id + "/" + head + "/" + price + "/" + path}>
           <div className="cardButton">ÜRÜNE GİT</div>
         </Link>
       </div>

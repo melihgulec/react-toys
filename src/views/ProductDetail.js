@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -12,6 +12,9 @@ import '../style/ProductDetail.css';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 function ProductDetail({match}){  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+});
     const {id, name, path, price} = match.params;
 
     const products = [

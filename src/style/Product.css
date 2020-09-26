@@ -1,0 +1,73 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 8px;
+    width: 220px;
+}
+
+.cardContainer:last-child{
+    padding: 0;
+}
+
+.cardButton{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #eee;
+    border-radius: 100px;
+    height:30px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;    
+}
+
+a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.cardButton:hover{
+    background-color: coral;
+    color: white;
+    -webkit-box-shadow: -5px 0px 31px -5px rgb(252, 185, 161);
+-moz-box-shadow: -5px 0px 31px -5px rgb(252, 185, 161);
+box-shadow: -5px 0px 31px -5px rgb(252, 185, 161);
+}
+
+.cardPic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+
+.cardPic{
+    border-radius: 2px;
+}
+
+.cardHead{
+    font-weight: bold;
+}
+
+.cardPrice{
+    font-weight: regular;
+}
+
+.cardBody{
+    width:100%;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}

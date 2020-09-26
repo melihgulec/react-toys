@@ -1,0 +1,38 @@
+.container{
+    left: 0;
+    bottom: 0;
+    display: flex;
+    border-top: 1px solid #eee;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #eee;
+}
+
+.footer-company p{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.footer-social-media-list{
+    font-size: 30px;
+    color: grey;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+.footer-fast ul li{
+    transition: 100ms ease-in-out;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-fast ul li:hover{
+    color: crimson;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+}

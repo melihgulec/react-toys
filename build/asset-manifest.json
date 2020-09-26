@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6fa7dc7f.chunk.css",
+    "main.js": "/static/js/main.141350d5.chunk.js",
+    "main.js.map": "/static/js/main.141350d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.98f831af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.98f831af.js.map",
+    "static/css/2.828be9a0.chunk.css": "/static/css/2.828be9a0.chunk.css",
+    "static/js/2.10e8ac17.chunk.js": "/static/js/2.10e8ac17.chunk.js",
+    "static/js/2.10e8ac17.chunk.js.map": "/static/js/2.10e8ac17.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.adf3f19690ea76f37d68f9a00990e98a.js": "/precache-manifest.adf3f19690ea76f37d68f9a00990e98a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.828be9a0.chunk.css.map": "/static/css/2.828be9a0.chunk.css.map",
+    "static/css/main.6fa7dc7f.chunk.css.map": "/static/css/main.6fa7dc7f.chunk.css.map",
+    "static/js/2.10e8ac17.chunk.js.LICENSE.txt": "/static/js/2.10e8ac17.chunk.js.LICENSE.txt",
+    "static/media/logo.jpg": "/static/media/logo.262d622c.jpg",
+    "static/media/product1.jpg": "/static/media/product1.25e5fb28.jpg",
+    "static/media/product10.jpg": "/static/media/product10.61b8e8f5.jpg",
+    "static/media/product11.jpg": "/static/media/product11.cdc34bcd.jpg",
+    "static/media/product12.png": "/static/media/product12.9f4a0024.png",
+    "static/media/product13.jpg": "/static/media/product13.cb8ff861.jpg",
+    "static/media/product14.jpg": "/static/media/product14.f427f053.jpg",
+    "static/media/product15.jpg": "/static/media/product15.e878be5b.jpg",
+    "static/media/product2.jpg": "/static/media/product2.5d51c588.jpg",
+    "static/media/product3.jpg": "/static/media/product3.cb6c9c7e.jpg",
+    "static/media/product4.jpg": "/static/media/product4.ccdefb2b.jpg",
+    "static/media/product5.jpg": "/static/media/product5.9b3764f8.jpg",
+    "static/media/product6.jpg": "/static/media/product6.05a9b91e.jpg",
+    "static/media/product7.jpg": "/static/media/product7.abb068f0.jpg",
+    "static/media/product8.jpg": "/static/media/product8.1cef2c42.jpg",
+    "static/media/product9.jpg": "/static/media/product9.e9705819.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98f831af.js",
+    "static/css/2.828be9a0.chunk.css",
+    "static/js/2.10e8ac17.chunk.js",
+    "static/css/main.6fa7dc7f.chunk.css",
+    "static/js/main.141350d5.chunk.js"
+  ]
+}

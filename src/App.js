@@ -5,7 +5,7 @@ import ProductDetail from './views/ProductDetail';
 import Toys from './views/Toys';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";

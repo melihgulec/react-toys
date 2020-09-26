@@ -80,7 +80,7 @@ function ProductDetail({match}){
                 </div>
             </div>
             <div className="productDetailSeparator">
-                <Separator headName="YAKINDA GELECEKLER" />
+                <Separator headName="İLGİNİZİ ÇEKEBİLİR" />
             </div>
             <div className="suggestContainer">
                 <ProductCarousel data={products} />

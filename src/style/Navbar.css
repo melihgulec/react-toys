@@ -7,6 +7,15 @@
     border-bottom: 1px solid #eee;
 }
 
+.navbarContainer a{
+    color: black;
+    transition: 0.1s ease-in-out;
+}
+
+.navbarContainer a:hover{
+    color: coral;
+}
+
 .display-bar
 {
     display: none;
@@ -37,7 +46,6 @@
 .navbarContainer ul li:hover{
     color: coral !important;
 }
-
 
 @media screen and (max-width: 600px) {
     .navbarContainer ul{

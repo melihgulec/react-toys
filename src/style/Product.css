@@ -8,6 +8,13 @@
     width: 220px;
 }
 
+.cardContainer a{
+    color: black;
+    transition: 0.1s ease-in-out;
+}
+
+
+
 .cardContainer:last-child{
     padding: 0;
 }

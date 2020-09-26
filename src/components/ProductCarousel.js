@@ -25,6 +25,8 @@ function ProductCarousel(props) {
     <OwlCarousel
       className="owl-theme"
       responsiveClass={true}
+      autoplay
+      loop
       items={5}
       responsive={responsiveOptions}
     >

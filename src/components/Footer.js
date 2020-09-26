@@ -8,7 +8,7 @@ function Footer(){
         <div className="container">
             <div className="footer-company">
                 <h2>X TOYS</h2>
-                <p>Mağazamız 2000 yılından bu yana hizmet vermektedir.<br/>Çalışma saatleri: 10:00 - 22:00</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>Çalışma saatleri: 10:00 - 22:00 arasıdır.</p>
                 <p>Gev gev Mh. Talk talk Sk. No: 22 D:3 <br/>Osmangazi/BURSA</p>
                 <p>
                     Tel : +90 224 100 20 30<br/>

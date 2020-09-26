@@ -11,9 +11,6 @@ import "../App.css";
 import "../components/Icons";
 
 function Main() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-});
   const products = [
     {
       id: 1,

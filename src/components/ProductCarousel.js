@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import Product from "../components/Product";
 import OwlCarousel from "react-owl-carousel";
@@ -6,6 +6,9 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 function ProductCarousel(props) {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+});
   const { data } = props;
   const responsiveOptions = {
     0: {

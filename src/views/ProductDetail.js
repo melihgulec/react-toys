@@ -12,11 +12,7 @@ import '../style/ProductDetail.css';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 function ProductDetail({match}){  
-  useEffect(() => {
-    window.scrollTo(0, 0);
-});
     const {id, name, path, price} = match.params;
-
     const products = [
         {
           id: 1,

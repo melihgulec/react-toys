@@ -4,7 +4,7 @@ import "../style/Product.css";
 import { Link } from "react-router-dom";
 
 function Product(props) {
-  const { price, head, path, id } = props;
+  const { price, head, path, id, stock } = props;
   return (
     <div className="cardContainer">
       <div className="cardPicContainer">
@@ -17,7 +17,7 @@ function Product(props) {
       <div className="cardBody">
         <div className="cardHead">{head}</div>
         <div className="cardPrice">{price} TL</div>
-        <Link to={"/productDetail/" + id + "/" + head + "/" + price + "/" + path}>
+        <Link to={"/productDetail/" + id + "/" + head + "/" + price + "/" + path + "/" + stock}>
           <div className="cardButton">ÜRÜNE GİT</div>
         </Link>
       </div>

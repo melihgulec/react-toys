@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/">
             <Main />
           </Route>
-          <Route path="/productDetail/:id/:name/:price/:path" children={ProductDetail}>
+          <Route path="/productDetail/:id/:name/:price/:path/:stock" children={ProductDetail}>
           </Route>
           <Route path="/toys">
             <Toys />

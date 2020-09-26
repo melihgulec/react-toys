@@ -8,8 +8,10 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 function ProductCarousel(props) {
   useEffect(() => {
     window.scrollTo(0, 0)
-});
-  const { data } = props;
+  });
+
+  const { data, autoplay, loop, items } = props;
+
   const responsiveOptions = {
     0: {
       items: 1,
@@ -21,13 +23,14 @@ function ProductCarousel(props) {
       items: 5,
     },
   };
+
   return (
     <OwlCarousel
       className="owl-theme"
       responsiveClass={true}
-      autoplay
-      loop
-      items={5}
+      autoplay = {autoplay}
+      loop = {loop}
+      items={items}
       responsive={responsiveOptions}
     >
       {data.map((product) => {
@@ -39,12 +42,19 @@ function ProductCarousel(props) {
               price={product.price}
               path={product.path}
               id={product.id}
+              stock={product.stock}
             />
           </div>
         );
       })}
     </OwlCarousel>
   );
+}
+
+ProductCarousel.defaultProps={
+  autoplay: false,
+  loop: false,
+  items:5
 }
 
 export default ProductCarousel;
